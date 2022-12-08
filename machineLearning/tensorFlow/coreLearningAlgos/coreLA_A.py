@@ -31,8 +31,8 @@ for feature_name in CATEGORICAL_COLUMNS:
   vocabulary = dftrain[feature_name].unique()  # gets a list of all unique values from given feature column
   feature_columns.append(tf.feature_column.categorical_column_with_vocabulary_list(feature_name, vocabulary))
 
-for feature_name in NUMERIC_COLUMNS:
-  feature_columns.append(tf.feature_column.numeric_column(feature_name, dtype=tf.float32))
+# for feature_name in NUMERIC_COLUMNS:
+#   feature_columns.append(tf.feature_column.numeric_column(feature_name, dtype=tf.float32))
 
-print(feature_columns)
+print()
 
