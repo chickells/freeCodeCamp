@@ -1,3 +1,7 @@
+# https://youtu.be/_cEwvqVoBhI?t=697
+# 11:37, TIME TO ACTUALLY USE THE MODEL TO PREDICT DATA
+
+
 from __future__ import absolute_import, division, print_function, unicode_literals
 
 import numpy as np
