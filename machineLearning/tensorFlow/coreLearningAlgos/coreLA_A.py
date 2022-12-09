@@ -86,3 +86,7 @@ print(train.head())
 
 # https://www.freecodecamp.org/learn/machine-learning-with-python/tensorflow/core-learning-algorithms-classification
 # https://colab.research.google.com/drive/15Cyy2H7nT40sGR7TBN5wBvgTd57mVKay#forceEdit=true&sandboxMode=true&scrollTo=oMW41Wd9eLIo
+
+# lol got literally NOTHING done because this laptop doesn't have AVX, it has MAVX so
+# i've just been troubleshooting trying to get tensorflow to work
+# YAY, literally didn't write a single line of code today. sick.
