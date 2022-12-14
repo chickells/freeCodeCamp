@@ -84,6 +84,10 @@ test = pd.read_csv(test_path, names=CSV_COLUMN_NAMES, header=0)
 
 print(train.head())
 
+train_y = train.pop('Species')
+test_y = train.pop('Species')
+print(train.head())
+
 # https://www.freecodecamp.org/learn/machine-learning-with-python/tensorflow/core-learning-algorithms-classification
 # https://colab.research.google.com/drive/15Cyy2H7nT40sGR7TBN5wBvgTd57mVKay#forceEdit=true&sandboxMode=true&scrollTo=oMW41Wd9eLIo
 
